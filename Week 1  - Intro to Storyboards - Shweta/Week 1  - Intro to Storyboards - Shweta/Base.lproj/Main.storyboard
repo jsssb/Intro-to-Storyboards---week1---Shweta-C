@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Mz-nf-25M">
@@ -52,24 +52,30 @@
                         <viewControllerLayoutGuide type="bottom" id="8Tp-ew-1aQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BYF-f0-09G">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOS" translatesAutoresizingMaskIntoConstraints="NO" id="yHJ-eH-4Xf">
-                                <rect key="frame" x="213" y="113" width="240" height="169"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shweta" translatesAutoresizingMaskIntoConstraints="NO" id="yHJ-eH-4Xf">
+                                <rect key="frame" x="67" y="113" width="240" height="249"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS7-BV-Xl4">
-                                <rect key="frame" x="213" y="304" width="46" height="30"/>
+                                <rect key="frame" x="67" y="389" width="46" height="30"/>
                                 <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="CAq-9r-xWX" kind="modal" id="mKR-vl-Gil"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shweta's first app" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oEN-9x-t5s">
-                                <rect key="frame" x="213" y="67" width="240" height="30"/>
+                                <rect key="frame" x="67" y="72" width="240" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-i9-Al9">
-                                <rect key="frame" x="407" y="304" width="46" height="30"/>
+                                <rect key="frame" x="261" y="389" width="46" height="30"/>
                                 <state key="normal" title="Goals"/>
+                                <connections>
+                                    <segue destination="k9q-PG-CfL" kind="push" id="u6P-Kg-87u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,15 +84,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wK-cK-V8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="308"/>
+            <point key="canvasLocation" x="1702.5" y="307.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TOt-wh-CKQ">
+            <objects>
+                <viewController id="CAq-9r-xWX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BXZ-DQ-cCl"/>
+                        <viewControllerLayoutGuide type="bottom" id="tga-Nz-G9h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JeN-Ah-yra">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sFz-zX-0vU">
+                                <rect key="frame" x="61" y="92" width="240" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">My day job is to manage a Project Mangement office, but have passion for software development. Working mum with two kids, need some sanity :).</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nhg-dk-w6s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TXU-ma-KxN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2480.5" y="583.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UMk-zB-C0C">
+            <objects>
+                <viewController id="k9q-PG-CfL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V8j-KC-mm1"/>
+                        <viewControllerLayoutGuide type="bottom" id="l24-tN-F3d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f7D-HX-Y9f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="I have some ideas that I would like to implement into a webapp and a mobile app." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rGY-dL-8tA">
+                                <rect key="frame" x="67" y="95" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cute-golden-retriever-happy-puppies" translatesAutoresizingMaskIntoConstraints="NO" id="6lJ-aW-OaP">
+                                <rect key="frame" x="67" y="256" width="240" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jSc-Gh-lwQ">
+                        <barButtonItem key="rightBarButtonItem" title="Info" id="ygc-Gw-r1v">
+                            <connections>
+                                <segue destination="CAq-9r-xWX" kind="push" id="2Hf-Ml-vQx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PpW-r5-maB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2146.5" y="-275.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4wu-Lq-FCw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y2z-fW-4nI" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="600"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F9E-zl-yaO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -102,6 +171,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IOS" width="500" height="500"/>
+        <image name="cute-golden-retriever-happy-puppies" width="400" height="250"/>
+        <image name="shweta" width="200" height="200"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="2Hf-Ml-vQx"/>
+    </inferredMetricsTieBreakers>
 </document>
