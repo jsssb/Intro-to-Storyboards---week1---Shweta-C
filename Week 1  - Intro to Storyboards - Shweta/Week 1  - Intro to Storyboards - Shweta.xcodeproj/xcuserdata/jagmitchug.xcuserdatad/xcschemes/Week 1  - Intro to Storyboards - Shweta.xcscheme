@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DDB20C201CB879DA007EA86A"
+               BuildableName = "Week 1  - Intro to Storyboards - Shweta.app"
+               BlueprintName = "Week 1  - Intro to Storyboards - Shweta"
+               ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DDB20C341CB879DA007EA86A"
+               BuildableName = "Week 1  - Intro to Storyboards - ShwetaTests.xctest"
+               BlueprintName = "Week 1  - Intro to Storyboards - ShwetaTests"
+               ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DDB20C3F1CB879DB007EA86A"
+               BuildableName = "Week 1  - Intro to Storyboards - ShwetaUITests.xctest"
+               BlueprintName = "Week 1  - Intro to Storyboards - ShwetaUITests"
+               ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DDB20C201CB879DA007EA86A"
+            BuildableName = "Week 1  - Intro to Storyboards - Shweta.app"
+            BlueprintName = "Week 1  - Intro to Storyboards - Shweta"
+            ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DDB20C201CB879DA007EA86A"
+            BuildableName = "Week 1  - Intro to Storyboards - Shweta.app"
+            BlueprintName = "Week 1  - Intro to Storyboards - Shweta"
+            ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DDB20C201CB879DA007EA86A"
+            BuildableName = "Week 1  - Intro to Storyboards - Shweta.app"
+            BlueprintName = "Week 1  - Intro to Storyboards - Shweta"
+            ReferencedContainer = "container:Week 1  - Intro to Storyboards - Shweta.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

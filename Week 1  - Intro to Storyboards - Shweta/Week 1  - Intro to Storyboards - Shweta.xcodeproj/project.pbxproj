@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB20C251CB879DA007EA86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB20C241CB879DA007EA86A /* AppDelegate.swift */; };
+		DDB20C271CB879DA007EA86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB20C261CB879DA007EA86A /* ViewController.swift */; };
+		DDB20C2A1CB879DA007EA86A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB20C281CB879DA007EA86A /* Main.storyboard */; };
+		DDB20C2C1CB879DA007EA86A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB20C2B1CB879DA007EA86A /* Assets.xcassets */; };
+		DDB20C2F1CB879DA007EA86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB20C2D1CB879DA007EA86A /* LaunchScreen.storyboard */; };
+		DDB20C3A1CB879DA007EA86A /* Week_1____Intro_to_Storyboards___ShwetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB20C391CB879DA007EA86A /* Week_1____Intro_to_Storyboards___ShwetaTests.swift */; };
+		DDB20C451CB879DB007EA86A /* Week_1____Intro_to_Storyboards___ShwetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB20C441CB879DB007EA86A /* Week_1____Intro_to_Storyboards___ShwetaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB20C361CB879DA007EA86A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB20C191CB879DA007EA86A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB20C201CB879DA007EA86A;
+			remoteInfo = "Week 1  - Intro to Storyboards - Shweta";
+		};
+		DDB20C411CB879DB007EA86A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB20C191CB879DA007EA86A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB20C201CB879DA007EA86A;
+			remoteInfo = "Week 1  - Intro to Storyboards - Shweta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB20C211CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 1  - Intro to Storyboards - Shweta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB20C241CB879DA007EA86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB20C261CB879DA007EA86A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB20C291CB879DA007EA86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB20C2B1CB879DA007EA86A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB20C2E1CB879DA007EA86A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB20C301CB879DA007EA86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB20C351CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 1  - Intro to Storyboards - ShwetaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB20C391CB879DA007EA86A /* Week_1____Intro_to_Storyboards___ShwetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_1____Intro_to_Storyboards___ShwetaTests.swift"; sourceTree = "<group>"; };
+		DDB20C3B1CB879DA007EA86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB20C401CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 1  - Intro to Storyboards - ShwetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB20C441CB879DB007EA86A /* Week_1____Intro_to_Storyboards___ShwetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_1____Intro_to_Storyboards___ShwetaUITests.swift"; sourceTree = "<group>"; };
+		DDB20C461CB879DB007EA86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB20C1E1CB879DA007EA86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C321CB879DA007EA86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C3D1CB879DB007EA86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB20C181CB879DA007EA86A = {
+			isa = PBXGroup;
+			children = (
+				DDB20C231CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */,
+				DDB20C381CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests */,
+				DDB20C431CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests */,
+				DDB20C221CB879DA007EA86A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB20C221CB879DA007EA86A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20C211CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta.app */,
+				DDB20C351CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests.xctest */,
+				DDB20C401CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB20C231CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20C241CB879DA007EA86A /* AppDelegate.swift */,
+				DDB20C261CB879DA007EA86A /* ViewController.swift */,
+				DDB20C281CB879DA007EA86A /* Main.storyboard */,
+				DDB20C2B1CB879DA007EA86A /* Assets.xcassets */,
+				DDB20C2D1CB879DA007EA86A /* LaunchScreen.storyboard */,
+				DDB20C301CB879DA007EA86A /* Info.plist */,
+			);
+			path = "Week 1  - Intro to Storyboards - Shweta";
+			sourceTree = "<group>";
+		};
+		DDB20C381CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20C391CB879DA007EA86A /* Week_1____Intro_to_Storyboards___ShwetaTests.swift */,
+				DDB20C3B1CB879DA007EA86A /* Info.plist */,
+			);
+			path = "Week 1  - Intro to Storyboards - ShwetaTests";
+			sourceTree = "<group>";
+		};
+		DDB20C431CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB20C441CB879DB007EA86A /* Week_1____Intro_to_Storyboards___ShwetaUITests.swift */,
+				DDB20C461CB879DB007EA86A /* Info.plist */,
+			);
+			path = "Week 1  - Intro to Storyboards - ShwetaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB20C201CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB20C491CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - Shweta" */;
+			buildPhases = (
+				DDB20C1D1CB879DA007EA86A /* Sources */,
+				DDB20C1E1CB879DA007EA86A /* Frameworks */,
+				DDB20C1F1CB879DA007EA86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 1  - Intro to Storyboards - Shweta";
+			productName = "Week 1  - Intro to Storyboards - Shweta";
+			productReference = DDB20C211CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB20C341CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB20C4C1CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - ShwetaTests" */;
+			buildPhases = (
+				DDB20C311CB879DA007EA86A /* Sources */,
+				DDB20C321CB879DA007EA86A /* Frameworks */,
+				DDB20C331CB879DA007EA86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB20C371CB879DA007EA86A /* PBXTargetDependency */,
+			);
+			name = "Week 1  - Intro to Storyboards - ShwetaTests";
+			productName = "Week 1  - Intro to Storyboards - ShwetaTests";
+			productReference = DDB20C351CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDB20C3F1CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB20C4F1CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - ShwetaUITests" */;
+			buildPhases = (
+				DDB20C3C1CB879DB007EA86A /* Sources */,
+				DDB20C3D1CB879DB007EA86A /* Frameworks */,
+				DDB20C3E1CB879DB007EA86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB20C421CB879DB007EA86A /* PBXTargetDependency */,
+			);
+			name = "Week 1  - Intro to Storyboards - ShwetaUITests";
+			productName = "Week 1  - Intro to Storyboards - ShwetaUITests";
+			productReference = DDB20C401CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB20C191CB879DA007EA86A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shweta Chug";
+				TargetAttributes = {
+					DDB20C201CB879DA007EA86A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SKM94H7TK;
+					};
+					DDB20C341CB879DA007EA86A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SKM94H7TK;
+						TestTargetID = DDB20C201CB879DA007EA86A;
+					};
+					DDB20C3F1CB879DB007EA86A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SKM94H7TK;
+						TestTargetID = DDB20C201CB879DA007EA86A;
+					};
+				};
+			};
+			buildConfigurationList = DDB20C1C1CB879DA007EA86A /* Build configuration list for PBXProject "Week 1  - Intro to Storyboards - Shweta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB20C181CB879DA007EA86A;
+			productRefGroup = DDB20C221CB879DA007EA86A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB20C201CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */,
+				DDB20C341CB879DA007EA86A /* Week 1  - Intro to Storyboards - ShwetaTests */,
+				DDB20C3F1CB879DB007EA86A /* Week 1  - Intro to Storyboards - ShwetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB20C1F1CB879DA007EA86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20C2F1CB879DA007EA86A /* LaunchScreen.storyboard in Resources */,
+				DDB20C2C1CB879DA007EA86A /* Assets.xcassets in Resources */,
+				DDB20C2A1CB879DA007EA86A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C331CB879DA007EA86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C3E1CB879DB007EA86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB20C1D1CB879DA007EA86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20C271CB879DA007EA86A /* ViewController.swift in Sources */,
+				DDB20C251CB879DA007EA86A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C311CB879DA007EA86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20C3A1CB879DA007EA86A /* Week_1____Intro_to_Storyboards___ShwetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB20C3C1CB879DB007EA86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB20C451CB879DB007EA86A /* Week_1____Intro_to_Storyboards___ShwetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB20C371CB879DA007EA86A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB20C201CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */;
+			targetProxy = DDB20C361CB879DA007EA86A /* PBXContainerItemProxy */;
+		};
+		DDB20C421CB879DB007EA86A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB20C201CB879DA007EA86A /* Week 1  - Intro to Storyboards - Shweta */;
+			targetProxy = DDB20C411CB879DB007EA86A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB20C281CB879DA007EA86A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB20C291CB879DA007EA86A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB20C2D1CB879DA007EA86A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB20C2E1CB879DA007EA86A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB20C471CB879DB007EA86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB20C481CB879DB007EA86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB20C4A1CB879DB007EA86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - Shweta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---Shweta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB20C4B1CB879DB007EA86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - Shweta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---Shweta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDB20C4D1CB879DB007EA86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - ShwetaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---ShwetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1  - Intro to Storyboards - Shweta.app/Week 1  - Intro to Storyboards - Shweta";
+			};
+			name = Debug;
+		};
+		DDB20C4E1CB879DB007EA86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - ShwetaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---ShwetaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1  - Intro to Storyboards - Shweta.app/Week 1  - Intro to Storyboards - Shweta";
+			};
+			name = Release;
+		};
+		DDB20C501CB879DB007EA86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - ShwetaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---ShwetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Week 1  - Intro to Storyboards - Shweta";
+			};
+			name = Debug;
+		};
+		DDB20C511CB879DB007EA86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Week 1  - Intro to Storyboards - ShwetaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.shweta.Week-1----Intro-to-Storyboards---ShwetaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Week 1  - Intro to Storyboards - Shweta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB20C1C1CB879DA007EA86A /* Build configuration list for PBXProject "Week 1  - Intro to Storyboards - Shweta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20C471CB879DB007EA86A /* Debug */,
+				DDB20C481CB879DB007EA86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB20C491CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - Shweta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20C4A1CB879DB007EA86A /* Debug */,
+				DDB20C4B1CB879DB007EA86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB20C4C1CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - ShwetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20C4D1CB879DB007EA86A /* Debug */,
+				DDB20C4E1CB879DB007EA86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDB20C4F1CB879DB007EA86A /* Build configuration list for PBXNativeTarget "Week 1  - Intro to Storyboards - ShwetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB20C501CB879DB007EA86A /* Debug */,
+				DDB20C511CB879DB007EA86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB20C191CB879DA007EA86A /* Project object */;
+}
