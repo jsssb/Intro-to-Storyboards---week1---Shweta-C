@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Scene-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Week_1____Intro_to_Storyboards___Shweta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Login Scene" customClass="ViewController" customModule="Week_1____Intro_to_Storyboards___Shweta" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,18 +18,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Mz-nf-25M">
-                                <rect key="frame" x="164" y="127" width="273" height="30"/>
+                                <rect key="frame" x="36" y="125" width="273" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9p-b1-w55">
-                                <rect key="frame" x="164" y="196" width="273" height="30"/>
+                                <rect key="frame" x="36" y="188" width="273" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqt-rm-qOq">
-                                <rect key="frame" x="277" y="275" width="46" height="30"/>
+                                <rect key="frame" x="149" y="270" width="46" height="30"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="cMh-Ls-YlK" kind="push" id="xOH-y2-F26"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -40,11 +43,50 @@
             </objects>
             <point key="canvasLocation" x="1057" y="308"/>
         </scene>
+        <!--What's up?-->
+        <scene sceneID="qIh-pN-EA9">
+            <objects>
+                <viewController id="cMh-Ls-YlK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LPE-N1-Ev8"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Tp-ew-1aQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BYF-f0-09G">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOS" translatesAutoresizingMaskIntoConstraints="NO" id="yHJ-eH-4Xf">
+                                <rect key="frame" x="213" y="113" width="240" height="169"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS7-BV-Xl4">
+                                <rect key="frame" x="213" y="304" width="46" height="30"/>
+                                <state key="normal" title="Info"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Shweta's first app" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oEN-9x-t5s">
+                                <rect key="frame" x="213" y="67" width="240" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRn-i9-Al9">
+                                <rect key="frame" x="407" y="304" width="46" height="30"/>
+                                <state key="normal" title="Goals"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="What's up?" id="p5z-Rd-2Fo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3wK-cK-V8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1703" y="308"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="4wu-Lq-FCw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y2z-fW-4nI" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F9E-zl-yaO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -59,4 +101,7 @@
             <point key="canvasLocation" x="245" y="308"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IOS" width="500" height="500"/>
+    </resources>
 </document>
